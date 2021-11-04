@@ -2,8 +2,8 @@
 title: David Bareham
 ---
 
-##About Me
+## About Me
 
-##GEOG5995M Assignment link
+## GEOG5995M Assignment link
 
 https://github.com/dahrb/Social-Science-Programming
