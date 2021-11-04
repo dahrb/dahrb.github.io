@@ -1,6 +1,9 @@
 ---
-title: Test
+title: David Bareham
 ---
 
+##About Me
 
-Hello World
+##GEOG5995M Assignment link
+
+https://github.com/dahrb/Social-Science-Programming
