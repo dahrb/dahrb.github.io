@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dahrb.github.io/al-folio/sitemap.xml
+Sitemap: https://dahrb.github.io/sitemap.xml
