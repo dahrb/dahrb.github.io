@@ -1,13 +1,13 @@
 ---
 ---
-@inproceedings{AtkinsonTacklingTB,
+@misc{AtkinsonTacklingTB,
   abbr={AI & A2J},
-  abs={Test},
+  abstract={In a wide variety of jurisdictions and courts, an accumulation is building up of legal cases waiting to be processed. New technologies offer promising solutions for tackling the backlogs and reducing the build up of cases, but the technologies must be targeted at specific bottlenecks. In this paper we describe work completed to meet these aims in two ways: 1) a tool aimed at reducing the number of incorrectly completed forms submitted; 2) a decision support tool for the identification of inadmissible claims submitted to the court. Both tools were developed for the setting of cases submitted to the European Court of Human Rights. We provide an overview of both these tools and their evaluation in initial trials, with the aim of enabling claimants to get improved access to justice by providing a level of automation for key decision points in the application process.},
   title={Tackling the Backlog: Support for Completing and Validating Forms},
-  author={Katie Atkinson and David Bareham and Trevor J. M. Bench-Capon and Joe Collenette and Jack Mumford},
+  author={Katie Atkinson and David Bareham and Trevor Bench-Capon and Joe Collenette and Jack Mumford},
   url={https://cgi.csc.liv.ac.uk/~tbc/publications/Access_to_Justice_workshop23.pdf},
   pdf={https://cgi.csc.liv.ac.uk/~tbc/publications/Access_to_Justice_workshop23.pdf},
-  booktitle={Workshop on AI and Access to Justice, JURIX 2023},
+  note={Presented at the Workshop on AI and Access to Justice @ JURIX 2023},
   year={2023},
   month={December},
   google_scholar_id = {u5HHmVD_uO8C},
@@ -16,14 +16,43 @@
   selected={true}
 }
 
-@inproceedings{BarehamPredEPO,
+@misc{BarehamPredEPO,
   abbr={DC},
+  abstract={This research assesses the feasibility of applying machine learning (ML) methods to the problem of case outcome prediction for appeals from the European Patent Office’s (EPO) Boards of Appeal, concerning the grant of a patent application. The task is conceptualised as binary classification in which an appeal can affirm or reverse the prior judgement. Using a range of ML classifiers and textual representations, including custom-trained word and document embeddings, two experiments were conducted on appeal cases from both the Examining and Opposition Divisions of the EPO. The first experiment uses randomlysampled data and the second uses year-stratified data, to perform prediction. The F1-scores achieved for the future prediction task across both divisions are 86.64% and 78.55% respectively. The results demonstrate the viability of applying ML techniques to predict the outcome of appeals concerning the patent grant procedure, and help to identify patents as a promising legal domain for future research. Furthermore, explainability analysis conducted with SHAP helps to identify a direction for future work concerning more robust explainability.},
   title={Predicting Decisions of the European Patent Office's Boards of Appeal Using Machine Learning},
   author={David Bareham},
-  booktitle={Doctoral Consortium, JURIX 2023},
+  note={Presented at the Doctoral Consortium @ JURIX 2023},
   year={2023}, 
   month={December},
   pdf = {pred_EPO.pdf},
   award = {Best Paper of the Doctoral Consortium},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  code = {https://github.com/dahrb/EPO-Project},
+  supp = {jurix_23_supp.pdf},
+  preview={shap.png},
+}
+
+@mscthesis{BarehamMsc2,
+  abbr={MSc},
+  title={Predicting Decisions of the European Patent Office's Boards of Appeal Using Machine Learning},
+  abstract={This work aims to assess the feasibility of applying data science and artificial intelligence methods to the problem of case outcome prediction for appeals from the European Patent Office’s Boards of Appeal, concerning the grant of a patent application. The task is conceptualised as a binary classification task in which an appeal can ‘affirm’ or ‘reverse’ the prior judgement. Using a range of machine learning classifiers and textual representations, including custom-trained word and document embeddings, two experiments were conducted on appeal cases from the Examining Division of the European Patent Office. The first using randomly-sampled data and the second with year-stratified data to engage in future prediction. The first experiment achieved 85% accuracy and the second an average of 86%. The results demonstrate the viability of applying machine learning techniques to appeals concerning the patent grant procedure, showing that patents as a legal domain may be promising for future case outcome prediction research.},
+  author={David Bareham},
+  school={University of Liverpool},
+  year={2023}, 
+  month={September},
+  pdf = {msc_2.pdf},
+  note = {Grade = Distinction}
+}
+
+@mscthesis{BarehamMsc1,
+  abbr={MSc},
+  title={Implementing Tools For Supporting Legal Reasoning},
+  abstract={This project brings together the research which has been conducted in the University of Liverpool on the ANGELIC project into a single interactive tool. The ANGELIC project has provided a methodology for implementing a system to determine the outcome of legal cases based upon legal domains constructed from precedent cases. This methodology draws from prior work into ADFs (Abstract Dialectical Frameworks), which are sets of nodes with directed links used to represent the factors of legal domains and the relationships between them. Several domains had been individually modelled and evaluated using this methodology, but this had not yet been brought together in a unified tool to be used in a practical setting. The tool produced enables the user to query a legal case for one of the domains modelled by answering a number of questions instantiating the case as a list of factors. These cases are then evaluated according to the relevant ADF graph using a depth-first search providing a case outcome. The result of the case is predicted, and a list of reasons for why that outcome was reached is generated, alongside a visualisation highlighting the relevant factors for the decision. The tool also allows the user to create ADFs for new legal domains or edit existing one. The project was successful when evaluated in regard to accuracy, explainability and usability. The tool was able to replicate the results of the previous implementation within Prolog, achieving the same accuracy, provide a transparent outcome with clearly stated reasons and visualisation for explainability as well as aiding usability by providing a comprehensive user manual and intuitive user interface.},
+  author={David Bareham},
+  school={University of Liverpool},
+  year={2021}, 
+  month={September},
+  pdf = {msc_1.pdf},
+  note = {Grade = Distinction},
+  code = {https://github.com/dahrb/MSc-Project-ADFs}
 }
