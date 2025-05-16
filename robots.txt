@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://davidbareham.co.uk/sitemap.xml
+Sitemap: https://dahrb.github.io/sitemap.xml
