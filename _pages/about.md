@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: <b> PhD Candidate at University of Liverpool
 profile:
