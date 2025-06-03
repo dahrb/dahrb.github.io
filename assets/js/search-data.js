@@ -4,34 +4,34 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
@@ -42,13 +42,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-attended-the-19th-international-conference-on-artificial-intelligence-and-law-icail-23-in-braga-portugal",
+          title: 'Attended the 19th International Conference on Artificial Intelligence and Law (ICAIL ‘23) in...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-presented-some-early-work-on-experiments-using-data-from-the-european-patent-office-at-the-university-of-liverpool-s-postgraduate-law-conference",
+          title: 'Presented some early work on experiments using data from the European Patent Office...',
+          description: "",
+          section: "News",},{id: "news-submitted-my-msc-dissertation-entitled-predicting-decisions-of-the-european-patent-office-s-boards-of-appeal-using-machine-learning",
+          title: 'Submitted my MSc dissertation entitled “Predicting Decisions of the European Patent Office’s Boards...',
+          description: "",
+          section: "News",},{id: "news-achieved-2nd-place-at-the-international-organization-for-migration-s-iom-hackathon-centred-on-bridging-climate-change-and-human-mobility-with-interdisciplinary-colleagues-from-the-university-of-liverpool-and-london-school-of-economics-this-work-will-go-towards-the-iom-s-cop-28-submission",
+          title: 'Achieved 2nd place at the International Organization for Migration’s (IOM) Hackathon centred on...',
+          description: "",
+          section: "News",},{id: "news-presented-our-findings-from-the-iom-s-hackathon-to-a-virtual-audience-in-nairobi-kenya-including-experts-from-the-un-academia-and-industry",
+          title: 'Presented our findings from the IOM’s Hackathon to a virtual audience in Nairobi,...',
           description: "",
           section: "News",},{
         id: 'social-email',
