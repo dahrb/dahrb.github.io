@@ -23,20 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -56,6 +42,27 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-presented-our-findings-from-the-iom-s-hackathon-to-a-virtual-audience-in-nairobi-kenya-including-experts-from-the-un-academia-and-industry",
           title: 'Presented our findings from the IOM’s Hackathon to a virtual audience in Nairobi,...',
+          description: "",
+          section: "News",},{id: "news-awarded-a-prize-for-best-doctoral-consortium-paper-for-my-work-predicting-decisions-of-the-european-patent-office-s-boards-of-appeal-using-machine-learning-at-the-36th-international-conference-on-legal-knowledge-and-information-systems-jurix-23",
+          title: 'Awarded a prize for Best Doctoral Consortium Paper for my work “Predicting decisions...',
+          description: "",
+          section: "News",},{id: "news-presented-our-paper-tackling-the-backlog-support-for-completing-and-validating-forms-at-the-ai-amp-amp-access-to-justice-workshop-at-jurix-23",
+          title: 'Presented our paper “Tackling the Backlog: Support for Completing and Validating Forms” at...',
+          description: "",
+          section: "News",},{id: "news-i-was-mentor-at-the-hackathon-unlocking-the-british-music-experience-museum-with-ai-helping-students-to-conceptualise-and-prototype-their-ideas-for-innnovative-applications-of-ai-to-the-british-music-experience-museum",
+          title: 'I was mentor at the hackathon “Unlocking the British Music Experience Museum with...',
+          description: "",
+          section: "News",},{id: "news-joined-the-program-committee-for-the-automated-semantic-analysis-of-information-in-legal-text-workshop-asail-at-icail-25",
+          title: 'Joined the program committee for the Automated Semantic Analysis of Information in Legal...',
+          description: "",
+          section: "News",},{id: "news-began-my-month-long-research-visit-to-utrecht-university-based-in-their-ai-labs",
+          title: 'Began my month long research visit to Utrecht University based in their AI...',
+          description: "",
+          section: "News",},{id: "news-presented-my-phd-work-in-utrecht-university-to-the-national-police-ai-lab-and-the-responsible-ai-group",
+          title: 'Presented my PhD work in Utrecht University to the National Police AI Lab...',
+          description: "",
+          section: "News",},{id: "news-ended-my-research-visit-to-utrecht-university",
+          title: 'Ended my research visit to Utrecht University.',
           description: "",
           section: "News",},{
         id: 'social-email',
