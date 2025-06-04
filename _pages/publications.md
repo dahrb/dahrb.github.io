@@ -9,8 +9,8 @@ post-header: true
 bibtypes:
   #- bibquery: "@article"
    # text: "Journal Articles"
-  #- bibquery: "@inproceedings"
-   # text: "Conferences"
+  - bibquery: "@inproceedings"
+    text: "Conferences"
   #- bibquery: "@thesis"
    # text: "PhD Thesis"
   - bibquery: "@misc"

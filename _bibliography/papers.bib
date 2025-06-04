@@ -1,5 +1,67 @@
 ---
 ---
+
+@inproceedings{Bareham2025,
+  abbr={ICAIL},
+  abstract={The task of forecasting case importance has received far less attention
+            in the legal domain compared to judgment prediction, but it is
+            a task that is an essential step to capture within tools for assisting
+            with the processing of cases submitted to a court. In this paper
+            we propose a cornerstone framework for carrying out the task of
+            forecasting case importance, using communicated cases, which are
+            documents available prior to any decision being issued. The setting
+            for our work is cases in the European Court of Human Rights,
+            with a specific focus on Article 3, prohibition of torture. We set out
+            proposals for a Retrieval-Augmented Generation (RAG) framework
+            that makes use of Large Language Models augmented with Semantic
+            Search, Knowledge Graph and Re-Ranking components and we
+            evaluate the effectiveness of this framework and its components.
+            Further experiments conducted evaluate the framework using both
+            pre-trained and fine-tuned LLMs, as well as use of different prompting
+            strategies. The basic experiments show a propensity for the
+            LLMs to significantly overestimate the importance of cases, but
+            when we augment the LLMs with the aforementioned components,
+            we are able to gain uplifts in performance. Our framework and
+            results provide a solid basis for determining the requirements for
+            the development of successful automated tools to be used to assist
+            with determining case importance.},
+  title={Curb Your Enthusiasm: Towards a RAG Framework to Forecast Case Importance in the ECHR},
+  author={David Bareham and Katie Atkinson and Jack Mumford and Jeremy Marshall},
+  booktitle    = {Proceedings of the Nineteenth International Conference on Artificial
+                  Intelligence and Law, {ICAIL} 2025, Chicago, United States, June 16-20, 2025},
+  year={2025},
+  month={June},
+  bibtex_show = {false},
+  preview={curb.png},
+  selected={true}
+}
+
+@inproceedings{Mumford2025,
+  abbr={ICAIL},
+  abstract={We report on a first set of results from experiments undertaken to
+            tackle the novel task of determining the optimal context window
+            for extracting and contextualising citation instances within case
+            law. The wider task of outcome prediction using AI tools cannot be
+            undertaken without considering the role that citations play when
+            new cases are being decided. This short paper aims to shine a
+            light on the importance of this task and provide the foundation for
+            developing AI tools to capture citations’ context by examining a
+            corpus of legal cases taken from the European Court of Human
+            Rights. Our results show that there is an identifiable “Goldilocks
+            Zone” of scoped paragraph-level context windows that attention
+            can be focused on for extracting citation instances.},
+  title={Finding the Goldilocks Zone: Retrieving Citation Context},
+  author={Jack Mumford and David Bareham and Katie Atkinson and Jeremy Marshall},
+  booktitle    = {Proceedings of the Nineteenth International Conference on Artificial
+                  Intelligence and Law, {ICAIL} 2025, Chicago, United States, June 16-20, 2025},
+  year={2025},
+  month={June},
+  bibtex_show = {false},
+  selected={true}
+}
+
+
+
 @misc{AtkinsonTacklingTB,
   abbr={AI & A2J},
   abstract={In a wide variety of jurisdictions and courts, an accumulation is building up of legal cases waiting to be processed. New technologies offer promising solutions for tackling the backlogs and reducing the build up of cases, but the technologies must be targeted at specific bottlenecks. In this paper we describe work completed to meet these aims in two ways: 1) a tool aimed at reducing the number of incorrectly completed forms submitted; 2) a decision support tool for the identification of inadmissible claims submitted to the court. Both tools were developed for the setting of cases submitted to the European Court of Human Rights. We provide an overview of both these tools and their evaluation in initial trials, with the aim of enabling claimants to get improved access to justice by providing a level of automation for key decision points in the application process.},
@@ -13,7 +75,7 @@
   google_scholar_id = {u5HHmVD_uO8C},
   bibtex_show = {true},
   preview={backlog.png},
-  selected={true}
+  selected={false}
 }
 
 @misc{BarehamPredEPO,
@@ -55,4 +117,5 @@
   pdf = {msc_1.pdf},
   note = {Grade = Distinction},
   code = {https://github.com/dahrb/MSc-Project-ADFs}
+
 }
