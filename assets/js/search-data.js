@@ -64,7 +64,12 @@ ninja.data = [{
           section: "News",},{id: "news-ended-my-research-visit-to-utrecht-university",
           title: 'Ended my research visit to Utrecht University.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-i-presented-my-work-at-icail-2025-in-chicago",
+          title: 'I presented my work at ICAIL 2025 in Chicago!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/icail_presentation/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
