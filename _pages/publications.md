@@ -7,8 +7,8 @@ nav: true
 social: true
 post-header: true
 bibtypes:
-  #- bibquery: "@article"
-   # text: "Journal Articles"
+  - bibquery: "@article"
+    text: "Journal Articles"
   - bibquery: "@inproceedings"
     text: "Conferences"
   #- bibquery: "@thesis"
