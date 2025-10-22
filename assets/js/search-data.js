@@ -69,7 +69,15 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/icail_presentation/";
-            },},{
+            },},{id: "news-my-first-journal-article-quot-ready-willing-and-able-challenges-facing-the-governance-of-generative-ai-in-the-uk-s-legal-services-sector-quot-has-been-published-in-the-journal-script-ed",
+          title: 'My first journal article &amp;quot;Ready, Willing, and Able? Challenges Facing the Governance of...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/scripted/";
+            },},{id: "news-was-thrilled-to-be-invited-to-speak-at-a-fascinating-panel-session-on-ai-and-innovation-in-law-hosted-within-the-university-of-liverpool-s-law-school-and-to-sit-on-a-panel-with-diverse-group-of-people-within-the-legatech-spasce-from-companies-such-as-ibm-weightmans-addleshaw-goddard-and-others",
+          title: 'Was thrilled to be invited to speak at a fascinating panel session on...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
